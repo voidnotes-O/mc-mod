@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+out/
+*.jar
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Fabric
+run/
+.mixin.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
