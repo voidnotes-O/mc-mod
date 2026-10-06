@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlthrow",
+  "version": "${version}",
+  "name": "Pearl Throw",
+  "description": "Middle mouse to throw ender pearls with automatic wind charge intercept prediction.",
+  "authors": [
+    "BrightSpark"
+  ],
+  "contact": {
+    "homepage": "https://github.com/voidnotes-O/mc-mod",
+    "sources": "https://github.com/voidnotes-O/mc-mod"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pearlthrow.PearlThrowClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21"
+  }
+}
